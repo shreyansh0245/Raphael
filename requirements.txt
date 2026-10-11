@@ -1,0 +1,17 @@
+# R.A.P.H.A.E.L. Phase 0 — pinned baseline dependencies
+#
+# Versions tested on Python 3.12.10 (64-bit, Windows 11).
+# Run smoke tests after any version change:
+#   .\.venv\Scripts\python.exe -m pytest tests/test_smoke.py -v
+#
+# Install with:
+#   .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+jupyter==1.1.1
+pytest==9.1.1
+python-dotenv==1.2.4

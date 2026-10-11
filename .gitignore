@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# R.A.P.H.A.E.L. project-specific
+# Virtual environment (explicit directory form alongside existing .venv entry)
+.venv/
+
+# Data directories — never commit raw or processed datasets
+data/raw/
+data/processed/
+
+# Generated model artifacts
+artifacts/
+*.pt
+*.pth
+*.bin
+
+# Operating-system junk
+.DS_Store
+Thumbs.db

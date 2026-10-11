@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "raphael"
+version = "0.1.0"
+description = "R.A.P.H.A.E.L. — Rapid Analysis and Prevention of Harassment, Abuse, Exploitation, and Language toxicity"
+requires-python = ">=3.12"
+# Runtime dependencies are intentionally absent here during Phase 0.
+# They are tracked in requirements.txt and installed via pip.
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
